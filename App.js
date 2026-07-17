@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
+import Body from "./src/components/Body";
+
 const AppLayout = () => {
-  return (
-    <div>
-      <h1> Wel come to Net flix</h1>
-    </div>
-  );
+  return <Body />;
 };
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<AppLayout />);
